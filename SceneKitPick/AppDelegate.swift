@@ -10,9 +10,9 @@ import Cocoa
 
 class AppDelegate: NSObject, NSApplicationDelegate, ItemSelectionDelegate {
                             
-    @IBOutlet var window: NSWindow
-    @IBOutlet var sceneView: SceneView
-    @IBOutlet var selectionLabel: NSTextField
+    @IBOutlet var window: NSWindow!
+    @IBOutlet var sceneView: SceneView!
+    @IBOutlet var selectionLabel: NSTextField!
     
     //Map the object names from .dae to strings we want to show to the user
     let partNames = ["head" : "Head",
